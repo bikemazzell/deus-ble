@@ -1,0 +1,8 @@
+{
+  "origin": "Synthetic test data. Not captured from hardware.",
+  "format": "Complete advertising bytes, hex",
+  "samples": [
+    {"hex": "02010500000000000000000000000000006300ff7f", "targetId": 99, "soil": 27, "frame": 127, "mode": "PUSH"},
+    {"hex": "020105000000000000000000000000000000000080", "targetId": 0, "soil": 90, "frame": 128, "mode": "AUTO"}
+  ]
+}

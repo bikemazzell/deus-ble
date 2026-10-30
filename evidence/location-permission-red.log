@@ -1,0 +1,94 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :android:preBuild UP-TO-DATE
+> Task :android:preDebugBuild UP-TO-DATE
+> Task :android:generateDebugResValues UP-TO-DATE
+> Task :android:generateDebugResources UP-TO-DATE
+> Task :android:packageDebugResources UP-TO-DATE
+> Task :android:parseDebugLocalResources UP-TO-DATE
+> Task :android:generateDebugRFile UP-TO-DATE
+> Task :android:javaPreCompileDebug UP-TO-DATE
+> Task :android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :android:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :android:preDebugAndroidTestBuild UP-TO-DATE
+> Task :android:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :android:writeDebugAarMetadata UP-TO-DATE
+> Task :android:checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :android:compileDebugLibraryResources UP-TO-DATE
+> Task :android:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :android:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :android:generateDebugAndroidTestResources UP-TO-DATE
+> Task :android:mergeDebugAndroidTestResources UP-TO-DATE
+> Task :android:extractDeepLinksDebug UP-TO-DATE
+> Task :android:processDebugManifest UP-TO-DATE
+> Task :android:processDebugAndroidTestManifest UP-TO-DATE
+> Task :android:processDebugAndroidTestResources UP-TO-DATE
+> Task :android:compileDebugAndroidTestJavaWithJavac
+> Task :android:mergeDebugAndroidTestShaders UP-TO-DATE
+> Task :android:compileDebugAndroidTestShaders NO-SOURCE
+> Task :android:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :android:mergeDebugShaders UP-TO-DATE
+> Task :android:compileDebugShaders NO-SOURCE
+> Task :android:generateDebugAssets UP-TO-DATE
+> Task :android:mergeDebugAssets UP-TO-DATE
+> Task :android:mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :android:compressDebugAndroidTestAssets UP-TO-DATE
+> Task :android:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :android:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :android:dexBuilderDebugAndroidTest
+> Task :android:mergeDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :android:processDebugAndroidTestJavaRes NO-SOURCE
+> Task :android:processDebugJavaRes NO-SOURCE
+> Task :android:mergeDebugAndroidTestJavaResource UP-TO-DATE
+> Task :android:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :android:mergeExtDexDebugAndroidTest UP-TO-DATE
+> Task :android:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :android:mergeLibDexDebugAndroidTest UP-TO-DATE
+> Task :android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :android:mergeDebugNativeLibs NO-SOURCE
+> Task :android:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :android:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :android:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :android:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :android:validateSigningDebugAndroidTest UP-TO-DATE
+> Task :android:writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :android:mergeProjectDexDebugAndroidTest
+> Task :android:packageDebugAndroidTest
+> Task :android:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+
+> Task :android:connectedDebugAndroidTest
+Starting 4 tests on PlantLab-API36(AVD) - 16
+
+io.github.deusble.android.AndroidBackendTest > deniedLocationIsExplicitEvenWhenBluetoothPermissionsAreGranted[PlantLab-API36(AVD) - 16] [31mFAILED [0m
+	java.lang.AssertionError: expected:<MISSING_PERMISSION> but was:<UNSUPPORTED>
+	at org.junit.Assert.fail(Assert.java:88)
+Tests on PlantLab-API36(AVD) - 16 failed: There was 1 failure(s).
+
+Finished 4 tests on PlantLab-API36(AVD) - 16
+
+> Task :android:connectedDebugAndroidTest FAILED
+
+[Incubating] Problems report is available at: file:///home/v/Documents/Dev/deus-research/deus-ble/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':android:connectedDebugAndroidTest'.
+> There were failing tests. See the report at: file:///home/v/Documents/Dev/deus-research/deus-ble/android/build/reports/androidTests/connected/debug/index.html
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.12/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 8s
+46 actionable tasks: 5 executed, 41 up-to-date

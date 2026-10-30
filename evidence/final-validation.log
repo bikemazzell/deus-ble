@@ -1,0 +1,143 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :core:sourcesJar UP-TO-DATE
+> Task :core:compileTestJava UP-TO-DATE
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+> Task :core:test UP-TO-DATE
+> Task :android:preBuild UP-TO-DATE
+> Task :android:preDebugBuild UP-TO-DATE
+> Task :android:generateDebugResValues UP-TO-DATE
+> Task :android:generateDebugResources UP-TO-DATE
+> Task :android:packageDebugResources UP-TO-DATE
+> Task :android:parseDebugLocalResources UP-TO-DATE
+> Task :android:generateDebugRFile UP-TO-DATE
+> Task :android:javaPreCompileDebug UP-TO-DATE
+> Task :android:compileDebugJavaWithJavac
+> Task :android:preDebugUnitTestBuild UP-TO-DATE
+> Task :android:bundleLibRuntimeToJarDebug
+> Task :android:bundleLibCompileToJarDebug
+> Task :android:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :android:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :android:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+> Task :android:processDebugJavaRes NO-SOURCE
+> Task :android:processDebugUnitTestJavaRes NO-SOURCE
+> Task :android:testDebugUnitTest
+> Task :android:preDebugAndroidTestBuild UP-TO-DATE
+> Task :android:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :android:writeDebugAarMetadata UP-TO-DATE
+> Task :android:checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :android:compileDebugLibraryResources UP-TO-DATE
+> Task :android:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :android:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :android:generateDebugAndroidTestResources UP-TO-DATE
+> Task :android:mergeDebugAndroidTestResources UP-TO-DATE
+> Task :android:extractDeepLinksDebug UP-TO-DATE
+> Task :android:processDebugManifest UP-TO-DATE
+> Task :android:processDebugAndroidTestManifest UP-TO-DATE
+> Task :android:processDebugAndroidTestResources UP-TO-DATE
+> Task :android:compileDebugAndroidTestJavaWithJavac
+> Task :android:mergeDebugAndroidTestShaders UP-TO-DATE
+> Task :android:compileDebugAndroidTestShaders NO-SOURCE
+> Task :android:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :android:mergeDebugShaders UP-TO-DATE
+> Task :android:compileDebugShaders NO-SOURCE
+> Task :android:generateDebugAssets UP-TO-DATE
+> Task :android:mergeDebugAssets UP-TO-DATE
+> Task :android:mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :android:compressDebugAndroidTestAssets UP-TO-DATE
+> Task :android:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :android:dexBuilderDebugAndroidTest
+> Task :android:mergeDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :android:processDebugAndroidTestJavaRes NO-SOURCE
+> Task :android:mergeDebugAndroidTestJavaResource UP-TO-DATE
+> Task :android:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :android:mergeExtDexDebugAndroidTest UP-TO-DATE
+> Task :android:bundleLibRuntimeToDirDebug
+> Task :android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :android:mergeDebugNativeLibs NO-SOURCE
+> Task :android:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :android:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :android:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :android:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :android:validateSigningDebugAndroidTest UP-TO-DATE
+> Task :android:writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :android:preReleaseBuild UP-TO-DATE
+> Task :android:mergeProjectDexDebugAndroidTest
+> Task :android:generateReleaseResValues UP-TO-DATE
+> Task :android:generateReleaseResources UP-TO-DATE
+> Task :android:packageReleaseResources UP-TO-DATE
+> Task :android:parseReleaseLocalResources UP-TO-DATE
+> Task :android:generateReleaseRFile UP-TO-DATE
+> Task :android:javaPreCompileRelease UP-TO-DATE
+> Task :android:compileReleaseJavaWithJavac
+> Task :android:extractProguardFiles UP-TO-DATE
+> Task :android:processReleaseManifest UP-TO-DATE
+> Task :android:generateReleaseLintReportModel
+> Task :android:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :android:mergeReleaseNativeLibs NO-SOURCE
+> Task :android:stripReleaseDebugSymbols NO-SOURCE
+> Task :android:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :android:mergeLibDexDebugAndroidTest
+> Task :android:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :android:extractReleaseAnnotations
+> Task :android:mergeReleaseShaders UP-TO-DATE
+> Task :android:compileReleaseShaders NO-SOURCE
+> Task :android:generateReleaseAssets UP-TO-DATE
+> Task :android:mergeReleaseAssets UP-TO-DATE
+> Task :android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :android:prepareLintJarForPublish UP-TO-DATE
+> Task :android:prepareReleaseArtProfile UP-TO-DATE
+> Task :android:processReleaseJavaRes NO-SOURCE
+> Task :android:mergeReleaseJavaResource UP-TO-DATE
+> Task :android:syncReleaseLibJars
+> Task :android:writeReleaseAarMetadata UP-TO-DATE
+> Task :android:bundleReleaseLocalLintAar
+> Task :android:preReleaseUnitTestBuild UP-TO-DATE
+> Task :android:writeReleaseLintModelMetadata UP-TO-DATE
+> Task :android:bundleLibRuntimeToJarRelease
+> Task :android:createFullJarRelease
+> Task :android:generateReleaseUnitTestLintModel
+> Task :core:assemble UP-TO-DATE
+> Task :android:bundleReleaseAar
+> Task :android:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :android:mergeReleaseResources UP-TO-DATE
+> Task :android:verifyReleaseResources UP-TO-DATE
+> Task :android:assembleRelease
+> Task :android:sourceReleaseJar
+> Task :android:generateMetadataFileForReleasePublication
+> Task :android:generatePomFileForReleasePublication
+> Task :android:publishReleasePublicationToLocalDevelopmentRepository
+> Task :android:publish
+> Task :core:generateMetadataFileForMavenJavaPublication
+> Task :core:generatePomFileForMavenJavaPublication
+> Task :core:publishMavenJavaPublicationToLocalDevelopmentRepository
+> Task :core:publish
+> Task :android:packageDebugAndroidTest
+> Task :android:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :android:lintAnalyzeReleaseUnitTest
+> Task :android:lintAnalyzeRelease
+
+> Task :android:connectedDebugAndroidTest
+Starting 2 tests on PlantLab-API36(AVD) - 16
+
+Finished 2 tests on PlantLab-API36(AVD) - 16
+
+> Task :android:lintReportRelease
+Wrote HTML report to file:///home/v/Documents/Dev/deus-research/deus-ble/android/build/reports/lint-results-release.html
+
+> Task :android:lintRelease
+
+[Incubating] Problems report is available at: file:///home/v/Documents/Dev/deus-research/deus-ble/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.12/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 14s
+96 actionable tasks: 31 executed, 65 up-to-date

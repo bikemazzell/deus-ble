@@ -1,0 +1,15 @@
+plugins { id 'com.android.library'; id 'maven-publish' }
+android {
+ namespace 'io.github.deusble.android'
+ compileSdk 36
+ defaultConfig { minSdk 26; testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner' }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+ publishing { singleVariant('release') { withSourcesJar() } }
+}
+dependencies { api project(':core'); testImplementation 'junit:junit:4.12'; androidTestImplementation 'androidx.test:runner:1.3.0'; androidTestImplementation 'junit:junit:4.12' }
+afterEvaluate {
+ publishing {
+  publications { release(MavenPublication) { from components.release; artifactId = 'deus-ble-android' } }
+  repositories { maven { name = 'localDevelopment'; url = rootProject.layout.buildDirectory.dir('maven') } }
+ }
+}
