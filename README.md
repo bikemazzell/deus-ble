@@ -83,6 +83,6 @@ The app owns runtime permission requests and any foreground service. Grant `ACCE
 
 ## Validation
 
-Unit tests cover parsing, immutable data, bounded deduplication, lifecycle errors, device filtering, selection, and late callbacks. `./gradlew :android:connectedDebugAndroidTest` runs Android permission, missing-hardware, and injected-observation tests on a connected emulator with a fresh test installation. The `fixtures` directory contains only synthetic data. The `evidence` directory records local test-first runs.
+Unit tests cover parsing, immutable data, bounded deduplication, lifecycle errors, device filtering, selection, and late callbacks. `./gradlew :android:connectedDebugAndroidTest` runs Android permission, missing-hardware, and injected-observation tests on a connected emulator with a fresh test installation. The `fixtures` directory contains only synthetic data.
 
 Before claiming detector support, capture real advertisements, confirm identity and service/name filtering, compare target and soil with the detector display, test repeated sweeps, and test screen-off operation. No real-detector acceptance has been completed.
